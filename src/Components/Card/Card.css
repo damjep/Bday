@@ -1,0 +1,62 @@
+.card {
+    position: relative;
+    display: flex;
+    min-width: 100vw;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: auto;
+    background-color: #F7FAF4;
+}
+
+.message {
+    flex: 4;
+    padding: 2em;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    padding: 1em;
+    animation: fade 2s;
+}
+
+.dear {
+    animation: fade 6s;
+}
+
+.center{
+    margin:auto;
+}
+
+.card-m {
+    height: auto;
+    width: 60vw;
+    margin: auto;
+    text-align: justify;
+    animation: fade 8s;
+}
+
+.regards {
+    animation: fade 10s ;
+}
+
+.card-m p {
+    font-size: 17px;
+    letter-spacing: 0.05rem;
+}
+
+.left {
+    text-align: left;
+    padding: 1em;
+    margin-left: 12em;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

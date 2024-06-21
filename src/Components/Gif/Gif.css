@@ -1,0 +1,42 @@
+
+.kiss-gif {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #F7FAF4;
+    animation: fadeIn 5s;
+}
+
+.kiss-gif img {
+    position: relative;
+    margin: auto;
+    flex: 2;
+}
+
+.kiss-text {
+    margin: auto;
+    width: auto;
+    height: 100px;
+    flex: 1;
+    cursor: pointer;
+}
+
+.kiss-text a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.kiss-text a:visited {
+    text-decoration: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
