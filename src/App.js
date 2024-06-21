@@ -3,8 +3,14 @@ import { BrowserRouter as Router } from'react-router-dom';
 import { Routes, Route } from'react-router-dom';
 import Card from './Components/Card/Card';
 import KissGif from './Components/Gif/KissGif';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect( () => {
+    document.title = '💗'
+    
+  }, []);
+
   return (<>
     <div className="App">
       <Router>
